@@ -1,0 +1,27 @@
+.add-memory-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.add-memory-page h2 {
+    font-family: 'Cinzel', sans-serif;
+    padding: 2rem 0 1rem;
+    font-size: 2rem;
+}
+
+.add-memory-page form {
+    max-width: 500px;
+}
+
+.add-memory-page p {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 350px;
+    resize: vertical;
+}
